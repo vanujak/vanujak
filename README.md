@@ -11,7 +11,7 @@
 
 ## 🧑‍💻 About Me
 
-- 🎓 BSc Engineering in **Computer Engineering** at the University of Ruhuna, Sri Lanka
+- 🎓 BSc Engineering in **Computer Engineering** at the Faculty of Engineering, University of Ruhuna, Sri Lanka
 - 🌱 Currently building full-stack applications and exploring **distributed systems** and **DevOps**
 - ⚡ Passionate about clean architecture, CI/CD pipelines, and scalable system design
 - 📍 Based in Ratnapura, Sri Lanka
@@ -20,13 +20,35 @@
 
 ## 🛠️ Tech Stack
 
-**Frontend**
-
-**Backend**
-
-**DevOps & Tools**
-
 **Languages**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=js,ts,java,python,c,cpp" alt="JavaScript, TypeScript, Java, Python, C, and C++"/>
+</p>
+
+**Frontend Development**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind,vite" alt="React, Next.js, HTML, CSS, Tailwind CSS, and Vite"/>
+</p>
+
+**Backend Development**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,php" alt="Node.js, Express, NestJS, and PHP"/>
+</p>
+
+**Databases**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql" alt="MongoDB, PostgreSQL, and MySQL"/>
+</p>
+
+**DevOps & Cloud Computing**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=docker,nginx,jenkins,git,github,linux" alt="Docker, Nginx, Jenkins, Git, GitHub, and Linux"/>
+</p>
 
 ---
 
@@ -34,92 +56,17 @@
 
 ### ⚖️ [EasyCase](https://github.com/vanujak/EasyCase)
 
-> A full-stack web application designed to streamline **case management for legal professionals**.
+A full-stack **case management platform** for legal professionals — manage clients, cases, and hearings from a single clean interface.
 
-EasyCase provides a user-friendly interface to manage clients, cases, and hearings — reducing administrative overhead for law firms and individual practitioners.
-
-| Layer        | Technologies                            |
-| ------------ | --------------------------------------- |
-| **Frontend** | React, Vite, Tailwind CSS, React Router |
-| **Backend**  | Node.js, Express, MongoDB, Mongoose     |
-| **Auth**     | JWT (JSON Web Tokens)                   |
-
-**Quick Start**
-
-```bash
-# Clone the repository
-git clone https://github.com/vanujak/EasyCase.git
-cd EasyCase
-
-# Install & run backend (http://localhost:5000)
-cd backend && npm install && npm run dev
-
-# Install & run frontend (http://localhost:5173)
-cd ../frontend && npm install && npm run dev
-```
-
-**Environment (backend `.env`)**
-
-```env
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-```
+`React` `Vite` `Tailwind CSS` `Node.js` `Express` `MongoDB` `JWT`
 
 ---
 
 ### 🔬 [ScaleLab](https://github.com/vanujak/scalelab)
 
-> A full-stack platform for **building, simulating, and monitoring distributed system architectures**.
+A platform for **building, simulating, and monitoring distributed system architectures** with a real-time dashboard and playground environment. Deployed with a full Docker + Nginx + Jenkins CI/CD pipeline.
 
-ScaleLab enables engineers and students to design system topologies, run simulations, and observe real-time metrics — all through an interactive UI backed by a production-grade API.
-
-| Layer          | Technologies                                      |
-| -------------- | ------------------------------------------------- |
-| **Frontend**   | Next.js 16, React 19, TypeScript, Tailwind CSS v4 |
-| **Backend**    | NestJS 11, TypeScript, PostgreSQL                 |
-| **Deployment** | Docker Compose, Nginx, Let's Encrypt              |
-| **CI/CD**      | Jenkins Pipeline                                  |
-
-**Repository Structure**
-
-```
-.
-├── backend/          # NestJS API (users, systems, simulation, metrics, playgrounds)
-├── frontend/         # Next.js UI (simulation, dashboards, playground)
-├── docker-compose.yml
-├── nginx.conf        # Reverse proxy + TLS for scalelab.easycase.site
-└── Jenkinsfile       # CI/CD pipeline
-```
-
-**Quick Start (Local)**
-
-```bash
-# Backend (http://localhost:4000)
-cd backend && npm install && npm run start:dev
-
-# Frontend (http://localhost:3000)
-cd frontend && npm install && npm run dev
-```
-
-**Run with Docker Compose**
-
-```bash
-docker compose up -d --build
-```
-
-Nginx proxies:
-
-- `scalelab.easycase.site` → frontend
-- `api.scalelab.easycase.site` → backend
-
-**Environment (root `.env`)**
-
-```env
-DATABASE_URL=postgresql://<user>:<password>@<host>:<port>/<db>
-GOOGLE_CLIENT_ID=<google-oauth-client-id>
-NEXT_PUBLIC_GOOGLE_CLIENT_ID=<google-oauth-client-id>
-```
+`Next.js` `NestJS` `TypeScript` `PostgreSQL` `Docker` `Jenkins`
 
 ---
 
