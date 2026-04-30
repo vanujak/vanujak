@@ -4,6 +4,7 @@
 <p align="center">
   <a href="mailto:vanujakofficial@gmail.com"><img src="https://img.shields.io/badge/Email-vanujakofficial%40gmail.com-red?style=flat-square&logo=gmail&logoColor=white"/></a>
   <a href="https://github.com/vanujak"><img src="https://img.shields.io/badge/GitHub-vanujak-181717?style=flat-square&logo=github&logoColor=white"/></a>
+  <a href="https://linkedin.com/in/vanujak"><img src="https://img.shields.io/badge/LinkedIn-vanujak-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
   <img src="https://komarev.com/ghpvc/?username=vanujak&style=flat-square&color=brightgreen" alt="profile views"/>
 </p>
 
@@ -91,6 +92,9 @@ A platform for **building, simulating, and monitoring distributed system archite
   </a>
   <a href="https://github.com/vanujak">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://linkedin.com/in/vanujak">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
 </p>
 
