@@ -94,12 +94,12 @@ A platform for **building, simulating, and monitoring distributed system archite
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vanujak&show_icons=true&theme=tokyonight&hide_border=true" width="48%" alt="Vanuja's GitHub stats"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=vanujak&theme=tokyonight" width="48%" alt="Vanuja's GitHub stats"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=vanujak&theme=tokyonight&hide_border=true" width="48%" alt="Vanuja's streak stats"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vanujak&layout=compact&theme=tokyonight&hide_border=true" width="48%" alt="Top languages"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=vanujak&theme=tokyonight" width="48%" alt="Top languages"/>
 </p>
 
 ---
